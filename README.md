@@ -27,20 +27,3 @@ functor.
 | System Info | Nearby Networks | Connection Details |
 |:-----------:|:---------------:|:--:|
 | ![img1](images/systeminfo.jpg) | ![img1](images/nearbynetworks.jpg) | ![img1](images/connectiondetails.jpg) |
-
- The left image shows a user interface with 4 panels. The first contains 
- a slider with an associated value field. The value can be changed with 
- the slider or by direct input via a keypad within predefined limits. 
- The keypad appears when the value field assigned to the slider is touched. 
- This is shown in the right image.
-
- The second panel contains 3 LED buttons which change color when pushed and 2 
- on/off buttons to switch on or off the LEDs.
-
-The third field shows the time and date that are retrieved from an NTP server. 
-Another value field shows the value read from the built-in photo resistor.
-
-The fourth panel has 4 LED buttons that behave like radio buttons. 
-They control the brightness of the display in 4 levels.
-
-
