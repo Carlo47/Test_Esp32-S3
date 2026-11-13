@@ -1,0 +1,23 @@
+{
+    "name": "ToolkitWiFi",
+    "description": "Implementation of often used WiFi functions",
+    "keywords": "rtc,wifi,autoconnect",
+    "version": "1.0.0",
+    "license": "The Unlicense",
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "espressif32"
+    ],
+    "headers": "ToolkitWiFi.h",
+    "authors": [
+        {
+            "name": "Charles Geiser",
+            "url": "https://github.com/Carlo47"
+        },
+        {
+            "name": "Microsoft Copilot"
+        }
+    ]
+}
