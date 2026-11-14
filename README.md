@@ -11,6 +11,10 @@ shades with values ranging from 0 to 65536 using the HSV color model.
 Simple printouts display system information, nearby Wi-Fi networks, and 
 connection details. 
 
+The Wi-Fi connection to the router is established either using predefined 
+login credentials or using login credentials entered on the cell phone 
+via the `AutoConnect` access point launched by the ESP32.
+
 As soon as a Wi-Fi connection is established, the ESP32's internal 
 real-time clock is synchronized with the local time of a time server. 
 The time is then displayed on the monitor every 15 seconds in a 
