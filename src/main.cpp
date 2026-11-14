@@ -79,6 +79,7 @@ void setup()
   else
     itsTimeForNextColor.begin();
 
+  // Wait until the seconds are a multiple of 15 to start showing the time
   while (time(NULL) % 15 != 0)
     vTaskDelay(pdMS_TO_TICKS(5));
   itsTimeToShowTime.begin();
@@ -92,15 +93,11 @@ void loop()
   if (testHue)
   {
     if (itsTimeForNextHue())
-    {
       cycleHue(64);
-    }
   }
   else
   {
     if (itsTimeForNextColor())
-    {
       cycleRGBWBlack();
-    }
   }
 }
